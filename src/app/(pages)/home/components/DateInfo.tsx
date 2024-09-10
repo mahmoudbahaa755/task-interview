@@ -59,9 +59,9 @@ export default function DateInfo() {
 function DateDetails({
   title,
   date,
-  previousLink,
-  nextLink,
-}: {
+}: // previousLink,
+// nextLink,
+{
   title: string;
   date: string;
   previousLink: string;
