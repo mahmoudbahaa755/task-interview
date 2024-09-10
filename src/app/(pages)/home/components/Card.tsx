@@ -57,7 +57,7 @@ export default function Card({
               opacity: 1,
             }}
           >
-            {price} ريال
+            {price.toFixed(2)} ريال
           </span>
           <span
             style={{

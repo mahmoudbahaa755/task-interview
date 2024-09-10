@@ -7,7 +7,6 @@ export default function MainDestination() {
         <div
           style={{
             textAlign: "start",
-            fontFamily: "IBM Plex Arabic !important",
             fontWeight: "medium",
             letterSpacing: "0px",
             color: "#000000",
@@ -19,7 +18,6 @@ export default function MainDestination() {
         <div
           style={{
             textAlign: "start",
-            fontFamily: "IBM Plex Arabic !important",
             fontWeight: "bold",
             fontSize: "21.75px",
             letterSpacing: "0px",
@@ -32,7 +30,6 @@ export default function MainDestination() {
         <div
           style={{
             textAlign: "right",
-            fontFamily: "IBM Plex Arabic !important",
             fontWeight: "medium",
             letterSpacing: "0px",
             color: "#000000",

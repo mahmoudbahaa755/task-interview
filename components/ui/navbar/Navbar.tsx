@@ -19,44 +19,44 @@ const Navbar: React.FC = () => {
       </div>
 
       <div className="flex justify-center gap-2 items-center  ">
-        <button
-          className="  flex  gap-[3px] !text-white"
-          style={{
-            background: "#78BAC6 0% 0% no-repeat padding-box ",
-            borderRadius: "32px",
-            width: "102px",
-            height: "31px",
-            padding: "6.6px 15px",
-            opacity: 1,
-          }}
-        >
-          <FaHome />
-          <span
+        <div>
+          {" "}
+          <button
+            className="  flex  gap-[3px] !text-white"
             style={{
-              fontSize: "11px",
-              fontWeight: "bold",
-              color: "#FFFFFF",
+              background: "#78BAC6 0% 0% no-repeat padding-box ",
+              borderRadius: "32px",
+              width: "102px",
+              height: "31px",
+              padding: "6.6px 15px",
+              opacity: 1,
             }}
           >
-            اضف عقارك
-          </span>
-        </button>
-        <button className="!text-primary rounded-full flex items-center w-[102px] h-[31px] justify-center">
-          <CgProfile className="!text-primary rounded-full ring-2 ring-primary mr-1" />
-          <div className="flex gap-2">
+            <FaHome />
             <span
-              className="text-[9.75px] !mr-1 text-[#EF3F24]"
               style={{
-                color: "#EF3F24",
-                font: "normal normal 700 10px/51px Avenir Arabic",
+                fontSize: "11px",
+                fontWeight: "bold",
+                color: "#FFFFFF",
               }}
             >
-              {" "}
-              يزيد العمري
+              اضف عقارك
             </span>
-          </div>
-        </button>
-        <button className="  !text-primary !text-[#EF3F24] rounded-full  flex items-center w-[102px] h-[31px] justify-center">
+          </button>
+        </div>
+        <div className=" gap-[2px] rounded-full flex items-center w-[102px] h-[31px] justify-center">
+          <CgProfile className=" rounded-full " />
+          <span
+            className="text-[9.75px]  text-[#EF3F24]"
+            style={{
+              color: "#EF3F24",
+              font: "normal normal 700 10px/51px Avenir Arabic",
+            }}
+          >
+            يزيد العمري
+          </span>
+        </div>
+        <button className="   !text-[#EF3F24] rounded-full  flex items-center w-[102px] h-[31px] justify-center">
           <MdArrowDropDown className="w-[9.25px] h-[4.63px]" size={10} />
           <span
             style={{

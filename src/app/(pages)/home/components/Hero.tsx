@@ -7,7 +7,6 @@ export default function Hero() {
             textAlign: "right",
             color: "#EF3F24",
             opacity: 1,
-            fontFamily: "IBM Plex Arabic",
             fontWeight: "medium",
             fontSize: "47.75px",
           }}
@@ -17,7 +16,6 @@ export default function Hero() {
         <div
           style={{
             textAlign: "right",
-            fontFamily: "IBM Plex Arabic !important",
             fontWeight: "medium",
             lineHeight: "51px",
             letterSpacing: "0px",
