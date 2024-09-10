@@ -61,7 +61,7 @@ const Navbar: React.FC = () => {
           </span>
         </div>
         <button className="   !text-[#EF3F24] rounded-full  flex items-center w-[102px] h-[31px] justify-center">
-          <MdArrowDropDown className="w-[9.25px] h-[4.63px]" size={10} />
+          <MdArrowDropDown fill="#EF3F24" className="w-[9.25px] h-[4.63px]" />
           <span
             style={{
               color: "#EF3F24",
