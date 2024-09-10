@@ -1,0 +1,12 @@
+{
+  "i18n-ally.localesPaths": ["messages"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always",
+    "source.organizeImports": "always",
+    "source.addMissingImports.ts": "always",
+    "source.removeUnusedImports": "always",
+    "source.sortImports": "always",
+    "source.fixAll.ts": "always",
+  },
+  "i18n-ally.keystyle": "nested"
+}
