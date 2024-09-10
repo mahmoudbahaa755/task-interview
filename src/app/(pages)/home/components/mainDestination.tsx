@@ -11,7 +11,7 @@ export default function MainDestination() {
             fontWeight: "medium",
             letterSpacing: "0px",
             color: "#000000",
-            opacity: 1,
+            fontSize: "9.75px",
           }}
         >
           ابحث عن وجهه
@@ -21,6 +21,7 @@ export default function MainDestination() {
             textAlign: "start",
             fontFamily: "IBM Plex Arabic !important",
             fontWeight: "bold",
+            fontSize: "21.75px",
             letterSpacing: "0px",
             color: "#000000",
             opacity: 1,
@@ -36,6 +37,7 @@ export default function MainDestination() {
             letterSpacing: "0px",
             color: "#000000",
             opacity: 1,
+            fontSize: "9.75px",
           }}
         >
           سيدي عبدالرحمن، مرسى مطروح، مصر
