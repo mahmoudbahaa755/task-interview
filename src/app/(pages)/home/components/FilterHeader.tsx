@@ -1,20 +1,23 @@
-import { FaFilter } from "react-icons/fa";
+import { FaArrowLeft, FaFilter } from "react-icons/fa";
 
 export default function FilterHeader() {
   return (
-    <div className="flex items-center justify-between">
-      <div
-        style={{
-          textAlign: "center",
-          font: "normal normal bold 25px/51px IBM Plex Arabic",
-          letterSpacing: "0px",
-          color: "#000000",
-          fontSize: "24.75px",
+    <div className="flex items-center justify-between mt-[57px] mb-[22px]">
+      <div className="flex  items-baseline gap-2 ">
+        <FaArrowLeft className="fill-[#EF3F24] w-[12.87px] h-[12.87px]" />
+        <div
+          style={{
+            textAlign: "center",
+            font: "normal normal bold 25px/51px IBM Plex Arabic",
+            letterSpacing: "0px",
+            color: "#000000",
+            fontSize: "24.75px",
 
-          opacity: 1,
-        }}
-      >
-        عنوان التصنيف أو الفلتر
+            opacity: 1,
+          }}
+        >
+          عنوان التصنيف أو الفلتر
+        </div>
       </div>
       <div className="flex items-center gap-2">
         <div

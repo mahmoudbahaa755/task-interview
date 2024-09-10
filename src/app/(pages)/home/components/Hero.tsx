@@ -24,6 +24,7 @@ export default function Hero() {
             color: "#000000",
             fontSize: "28.75px",
             opacity: 1,
+            marginBottom: "35px",
           }}
         >
           ماهي وجهتك القادمة؟

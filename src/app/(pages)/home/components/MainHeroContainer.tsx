@@ -12,6 +12,8 @@ export default function MainHeroContainer() {
         borderRadius: "25px",
         opacity: 1,
         padding: "40px",
+        position: "relative",
+
         width: "1124px",
         height: "232px",
       }}
@@ -21,7 +23,16 @@ export default function MainHeroContainer() {
         <DateInfo />
         <GuestInfo />
       </div>
-      <SearchIcon />
+      <div
+        style={{
+          position: "absolute",
+          bottom: "-55px",
+          left: "50%",
+          transform: "translateX(-50%)",
+        }}
+      >
+        <SearchIcon />
+      </div>
     </div>
   );
 }
