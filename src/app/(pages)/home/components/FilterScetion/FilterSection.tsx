@@ -1,5 +1,5 @@
 import { getCard } from "../../../../../../apis/card.api";
-import Card from "../Card";
+import Card from "./Card";
 import FilterHeader from "./FilterHeader";
 
 export default async function FilterSection() {
