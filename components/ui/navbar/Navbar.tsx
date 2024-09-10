@@ -18,9 +18,9 @@ const Navbar: React.FC = () => {
         {/* aroovia <span className="text-[#78BAC6]">tm</span> */}
       </div>
 
-      <div className="flex items-center gap-2 ">
+      <div className="flex justify-center items-center  ">
         <button
-          className="  flex  gap-[2px] !text-white"
+          className="  flex  gap-[3px] !text-white"
           style={{
             background: "#78BAC6 0% 0% no-repeat padding-box ",
             borderRadius: "32px",
@@ -30,7 +30,7 @@ const Navbar: React.FC = () => {
             opacity: 1,
           }}
         >
-          <FaHome />{" "}
+          <FaHome />
           <span
             style={{
               fontSize: "11px",
@@ -47,6 +47,7 @@ const Navbar: React.FC = () => {
             className="text-[9.75px] text-[#EF3F24]"
             style={{
               color: "#EF3F24",
+              font: "normal normal 700 10px/51px Avenir Arabic",
             }}
           >
             يزيد العمري
@@ -57,6 +58,7 @@ const Navbar: React.FC = () => {
           <span
             style={{
               color: "#EF3F24",
+              font: "normal normal 700 10px/51px Avenir Arabic",
             }}
             className="text-[9.75px] text-[#EF3F24]"
           >
