@@ -24,7 +24,7 @@ export default async function FilterSection() {
           location="شاليهات هايسيندا"
         />
         <Card
-          like={false}
+          like={true}
           title="شاليهات هايسيندا"
           rate={1.5}
           price={100}
