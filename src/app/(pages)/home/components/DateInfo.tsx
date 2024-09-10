@@ -78,7 +78,8 @@ function DateDetails({
       </button>
       <div className="flex items-center gap-2 ">
         <div className="text-[9.75px]">
-          <a className="underline mb-[2px] ">السابق</a>
+          <a className="">السابق</a>
+          <div className="underline w-[25px] rounded-sm h-[0.9px] bg-black"></div>
         </div>
         <div className="text-left font-bold  text-[9.75px]  text-black">
           التالي
