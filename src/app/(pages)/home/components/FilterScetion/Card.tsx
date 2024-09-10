@@ -2,7 +2,7 @@
 import Image from "next/image";
 import { useState } from "react";
 import { FaHeart, FaRegHeart } from "react-icons/fa";
-import defaultImg from "../../../../../public/loc.webp";
+import defaultImg from "../../../../../../public/loc.webp";
 export default function Card({
   img,
   title,
