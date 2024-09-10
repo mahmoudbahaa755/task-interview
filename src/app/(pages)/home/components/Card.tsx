@@ -45,7 +45,7 @@ export default function Card({
           </div>
         </div>
         <div className="flex items-center mb-[3px] w-full">
-          <span className="text-sm text-gray-600">{location}</span>
+          <span className="text-[9.75px] text-gray-600">{location}</span>
         </div>
 
         <div className="flex gap-[6px] justify-start items-baseline">
