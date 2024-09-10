@@ -1,4 +1,5 @@
-import { FaArrowLeft, FaFilter } from "react-icons/fa";
+import { FaArrowLeft } from "react-icons/fa";
+import { RiSoundModuleFill } from "react-icons/ri";
 
 export default function FilterHeader() {
   return (
@@ -32,7 +33,7 @@ export default function FilterHeader() {
         >
           تصفية
         </div>
-        <FaFilter className="fill-[#EF3F24]" />
+        <RiSoundModuleFill className="fill-[#EF3F24] w-[22px] h-[18px] transform rotate-[90deg]" />
       </div>
     </div>
   );
