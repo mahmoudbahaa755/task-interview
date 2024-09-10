@@ -78,7 +78,7 @@ function DateDetails({
       </button>
       <div className="flex gap-2 items-center  ">
         <div className="text-[9.75px]">
-          <a className="">السابق</a>
+          <a className="cursor-pointer">السابق</a>
           <div className="underline w-[25px] rounded-sm h-[0.9px] bg-black"></div>
         </div>
         <div
@@ -89,7 +89,7 @@ function DateDetails({
             color: "#000000",
             opacity: 1,
           }}
-          className="text-left font-bold  text-[9.75px]  text-black"
+          className="text-left  cursor-pointer  text-[9.75px]  text-black"
         >
           التالي
         </div>

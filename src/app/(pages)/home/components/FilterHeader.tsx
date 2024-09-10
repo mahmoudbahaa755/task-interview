@@ -33,7 +33,7 @@ export default function FilterHeader() {
         >
           تصفية
         </div>
-        <RiSoundModuleFill className="fill-[#EF3F24] w-[22px] h-[18px] transform rotate-[90deg]" />
+        <RiSoundModuleFill className="fill-[#EF3F24] w-[22px] h-[18px] cursor-pointer transform rotate-[90deg]" />
       </div>
     </div>
   );

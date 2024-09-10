@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import { useState } from "react";
 import { FaHeart, FaRegHeart } from "react-icons/fa";
 import defaultImg from "../../../../../public/loc.webp";
 export default function Card({
@@ -17,6 +18,7 @@ export default function Card({
   price: number;
   location: string;
 }) {
+  const [isLiked, setIsLiked] = useState(like);
   return (
     <div className="bg-white rounded-xl  overflow-hidden max-w-sm">
       <div className="relative ">
@@ -29,8 +31,11 @@ export default function Card({
             className="!rounded-[20px]"
           />
         </div>
-        <button className="absolute bg-white rounded-full  flex justify-center items-center top-[18px] left-[23px] w-[27px] h-[25px] text-white z-10">
-          {!like ? (
+        <button
+          onClick={() => setIsLiked(!isLiked)}
+          className="absolute bg-white rounded-full  flex justify-center items-center top-[18px] left-[23px] w-[27px] h-[25px] text-white z-10"
+        >
+          {!isLiked ? (
             <FaHeart className="  fill-[#EF3F24]  w-[14px] h-[14px]" />
           ) : (
             <FaRegHeart className="  fill-[#EF3F24] w-[14px] h-[14px]" />
