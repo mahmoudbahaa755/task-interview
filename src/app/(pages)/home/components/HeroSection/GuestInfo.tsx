@@ -1,4 +1,4 @@
-import BoxContainer from "./BoxContainer";
+import BoxContainer from "../container/BoxContainer";
 export default function GuestInfo() {
   return (
     <BoxContainer>

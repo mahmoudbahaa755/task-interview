@@ -1,6 +1,6 @@
-import FilterSection from "./components/FilterSection";
-import Hero from "./components/Hero";
-import MainHeroContainer from "./components/MainHeroContainer";
+import FilterSection from "./components/FilterScetion/FilterSection";
+import Hero from "./components/HeroSection/Hero";
+import MainHeroContainer from "./components/container/MainHeroContainer";
 
 export default async function HomePage() {
   const data = await fetch("https://wovenclouds.com/arrovia/api/search/random");

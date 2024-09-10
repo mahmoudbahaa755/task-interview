@@ -1,5 +1,5 @@
 import { BsCalendarDateFill } from "react-icons/bs";
-import BoxContainer from "./BoxContainer";
+import BoxContainer from "../container/BoxContainer";
 
 export default function DateInfo() {
   return (

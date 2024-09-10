@@ -1,7 +1,7 @@
-import DateInfo from "./DateInfo";
-import GuestInfo from "./GuestInfo";
-import MainDestination from "./mainDestination";
-import SearchIcon from "./SearchIcon";
+import DateInfo from "../HeroSection/DateInfo";
+import GuestInfo from "../HeroSection/GuestInfo";
+import MainDestination from "../HeroSection/mainDestination";
+import SearchIcon from "../HeroSection/SearchIcon";
 
 export default function MainHeroContainer() {
   return (
