@@ -81,7 +81,16 @@ function DateDetails({
           <a className="">السابق</a>
           <div className="underline w-[25px] rounded-sm h-[0.9px] bg-black"></div>
         </div>
-        <div className="text-left font-bold  text-[9.75px]  text-black">
+        <div
+          style={{
+            textAlign: "left",
+            font: "normal normal medium 10px/51px IBM Plex Arabic",
+            letterSpacing: "0px",
+            color: "#000000",
+            opacity: 1,
+          }}
+          className="text-left font-bold  text-[9.75px]  text-black"
+        >
           التالي
         </div>
       </div>

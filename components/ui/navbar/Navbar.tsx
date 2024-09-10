@@ -7,7 +7,7 @@ import logo from "../../../public/logo.png";
 
 const Navbar: React.FC = () => {
   return (
-    <div className="flex w-full align-baseline pt-4 flex-row-reverse !bg-white container  justify-between ">
+    <div className=" flex align-baseline pt-4 flex-row-reverse !bg-white   justify-between ">
       <div
         style={{
           background: " 0% 0% no-repeat padding-box",
@@ -18,7 +18,7 @@ const Navbar: React.FC = () => {
         {/* aroovia <span className="text-[#78BAC6]">tm</span> */}
       </div>
 
-      <div className="flex justify-center items-center  ">
+      <div className="flex justify-center gap-2 items-center  ">
         <button
           className="  flex  gap-[3px] !text-white"
           style={{
@@ -41,17 +41,20 @@ const Navbar: React.FC = () => {
             اضف عقارك
           </span>
         </button>
-        <button className="gap-2 !text-primary rounded-full flex items-center w-[102px] h-[31px] justify-center">
-          <CgProfile className="!text-primary rounded-full ring-2 ring-primary" />{" "}
-          <span
-            className="text-[9.75px] text-[#EF3F24]"
-            style={{
-              color: "#EF3F24",
-              font: "normal normal 700 10px/51px Avenir Arabic",
-            }}
-          >
-            يزيد العمري
-          </span>
+        <button className="!text-primary rounded-full flex items-center w-[102px] h-[31px] justify-center">
+          <CgProfile className="!text-primary rounded-full ring-2 ring-primary mr-1" />
+          <div className="flex gap-2">
+            <span
+              className="text-[9.75px] !mr-1 text-[#EF3F24]"
+              style={{
+                color: "#EF3F24",
+                font: "normal normal 700 10px/51px Avenir Arabic",
+              }}
+            >
+              {" "}
+              يزيد العمري
+            </span>
+          </div>
         </button>
         <button className="  !text-primary !text-[#EF3F24] rounded-full  flex items-center w-[102px] h-[31px] justify-center">
           <MdArrowDropDown className="w-[9.25px] h-[4.63px]" size={10} />
