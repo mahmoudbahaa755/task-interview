@@ -39,8 +39,8 @@ const Navbar: React.FC = () => {
             اضف عقارك
           </span>
         </button>
-        <button className="  gap-2  !text-primary  rounded-full  flex items-center w-[102px] h-[31px] justify-center">
-          <FaUser className=" !text-primary rounded-full border-red-500 " />{" "}
+        <button className="gap-2 !text-primary rounded-full flex items-center w-[102px] h-[31px] justify-center">
+          <FaUser className="!text-primary rounded-full ring-2 ring-primary" />{" "}
           <span
             style={{
               color: "#EF3F24",
