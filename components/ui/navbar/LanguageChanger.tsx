@@ -39,9 +39,9 @@ export default function LanguageChanger() {
           {language === "en" ? "En" : "Ar"}
         </span>
       </button>
-      {isOpen && (
-        <div className="absolute top-full mt-2 w-[102px] bg-white shadow-md rounded-md border border-gray-200">
-          <ul className="divide-y rounded-md divide-gray-100">
+      {false && (
+        <div className="absolute  top-full mt-2 w-[102px] bg-white shadow-md rounded-md border border-gray-200">
+          <ul className="divide-y p-2 rounded-md divide-gray-100">
             <li
               className={` cursor-pointer hover:bg-gray-50 flex items-center justify-center ${
                 language === "en" ? "!text-[#EF3F24]" : "text-black"
