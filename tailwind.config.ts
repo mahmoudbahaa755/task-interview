@@ -10,6 +10,12 @@ const config: Config = {
     extend: {
       container: {
         center: true,
+        screens: {
+          sm: "640px",
+          md: "768px",
+          lg: "980PX",
+          xl: "1280px",
+        },
         padding: {
           DEFAULT: "1rem",
           sm: "2rem",
