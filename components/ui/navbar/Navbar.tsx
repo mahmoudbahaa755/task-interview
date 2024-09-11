@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
       style={{
         marginTop: "41px",
       }}
-      className="container  bg-white"
+      className="container  bg-[#FFFFFF]"
     >
       <div className="flex items-center container justify-between   bg-white">
         <Image width={164.9} height={32.22} src={logo} alt="logo" />
