@@ -16,27 +16,14 @@ export default function LanguageChanger() {
   };
 
   return (
-    <div className="relative">
+    <div className="">
       <button
-        className="!text-[#EF3F24] rounded-full flex items-center w-[102px] h-[31px] justify-center"
+        className="!text-[#EF3F24]  flex items-center justify-center "
         onClick={toggleDropdown}
       >
-        <MdArrowDropDown
-          fill="#EF3F24"
-          className="w-[9.25px] h-[4.63px]"
-          size={10}
-        />
-        <span
-          style={{
-            color: "#EF3F24",
-            font:
-              language === "en"
-                ? "normal normal 700 10px/51px Avenir"
-                : "normal normal 700 10px/51px Avenir Arabic",
-          }}
-          className="text-[9.75px] text-[#EF3F24]"
-        >
-          {language === "en" ? "En" : "Ar"}
+        <MdArrowDropDown fill="#EF3F24" className="h-[4.63px]" size={18} />
+        <span className="text-[9.75px] font-bold text-[#EF3F24]">
+          {language === "en" ? "EN" : "AR"}
         </span>
       </button>
       {false && (
@@ -48,7 +35,7 @@ export default function LanguageChanger() {
               }`}
               onClick={() => handleLanguageChange("en")}
             >
-              <span className="text-[10px] font-bold">En</span>
+              <span className="text-[9.75px ] font-bold">EN</span>
             </li>
             <li
               className={` cursor-pointer hover:bg-gray-50 flex items-center justify-center ${
@@ -56,7 +43,7 @@ export default function LanguageChanger() {
               }`}
               onClick={() => handleLanguageChange("ar")}
             >
-              <span className="text-[10px] font-bold">Ar</span>
+              <span className="text-[9.75px] font-bold">AR</span>
             </li>
           </ul>
         </div>

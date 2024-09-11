@@ -10,7 +10,7 @@ export default function MainHeroContainer() {
         background: "#FFFFFF 0% 0% no-repeat padding-box",
         boxShadow: "0px 0px 40px #00000029",
         // width: "1124px",
-        // height: "232px",
+        height: "232px",
       }}
       className="grid relative md:grid-cols-1 lg:grid-cols-3 gap-[15px] rounded-[25px] p-[40px]"
     >

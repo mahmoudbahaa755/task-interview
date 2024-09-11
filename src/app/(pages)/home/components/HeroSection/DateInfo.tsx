@@ -4,7 +4,7 @@ import BoxContainer from "../container/BoxContainer";
 export default function DateInfo() {
   return (
     <BoxContainer>
-      <div className="flex items-start justify-between h-full">
+      <div className="flex  items-start justify-between h-full">
         <DateDetails
           title="تاريخ الدخول"
           date="22 ديسيمبر"
@@ -34,7 +34,7 @@ function DateDetails({
   nextLink: string;
 }) {
   return (
-    <div className="flex flex-col items-start justify-center h-full">
+    <div className="flex mt-[26px] flex-col items-start justify-center h-full">
       <div className="text-[9.75px] text-[#000000] font-medium mb-[4px]">
         {title}
       </div>
