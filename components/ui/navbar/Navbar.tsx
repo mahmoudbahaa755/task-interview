@@ -7,7 +7,7 @@ import LanguageChanger from "./LanguageChanger";
 
 const Navbar: React.FC = () => {
   return (
-    <div className="flex items-center justify-between pt-4 bg-white">
+    <div className="flex items-center container mx-[60px] justify-between pt-4 bg-white">
       <Image width={164.9} height={32.22} src={logo} alt="logo" />
 
       <div className="flex items-center gap-2">

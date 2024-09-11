@@ -20,10 +20,12 @@ export default function RootLayout({
     <html dir="rtl" lang="ar">
       <head></head>
       <body
-        className={`${ibmPlexSansArabic.className} container !bg-[#FAFAFA] text-black`}
+        className={`${ibmPlexSansArabic.className}   !bg-[#FAFAFA] text-black`}
       >
-        <Navbar />
-        <div className="">{children}</div>
+        <div className="container">
+          <Navbar />
+          {children}
+        </div>
       </body>
     </html>
   );
