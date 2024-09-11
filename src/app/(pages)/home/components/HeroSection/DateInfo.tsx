@@ -69,7 +69,9 @@ function DateDetails({
 }) {
   return (
     <div className="flex flex-col items-start justify-center h-full">
-      <div className="text-[9.75px] text-gray-500 mb-2"> {title}</div>
+      <div className="text-[9.75px] text-[#000000] font-medium mb-[4px]">
+        {title}
+      </div>
       <button className="  gap-2 rounded-full flex items-center justify-between w-full">
         <div className="text-left font-bold text-[21.75px]  text-black">
           {date}
@@ -77,20 +79,11 @@ function DateDetails({
         <BsCalendarDateFill className="w-[11.07px] h-[13.41px]" />
       </button>
       <div className="flex gap-2 items-center  ">
-        <div className="text-[9.75px]">
+        <div className="text-[9.75px] font-medium">
           <a className="cursor-pointer">السابق</a>
           <div className="underline w-[25px] rounded-sm h-[0.9px] bg-black"></div>
         </div>
-        <div
-          style={{
-            textAlign: "left",
-            font: "normal normal medium 10px/51px IBM Plex Arabic",
-            letterSpacing: "0px",
-            color: "#000000",
-            opacity: 1,
-          }}
-          className="text-left  cursor-pointer  text-[9.75px]  text-black"
-        >
+        <div className="text-left  font-medium  cursor-pointer  text-[9.75px]  text-black">
           التالي
         </div>
       </div>

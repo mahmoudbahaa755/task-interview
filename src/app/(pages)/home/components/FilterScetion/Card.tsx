@@ -26,7 +26,6 @@ export default function Card({
             src={img}
             alt={title}
             layout="fill"
-            objectFit="cover"
             className="!rounded-[20px]"
           />
         </div>

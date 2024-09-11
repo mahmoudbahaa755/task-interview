@@ -16,25 +16,26 @@ export default function GuestInfo() {
             الضيوف
           </div>
           <div
-            style={{
-              textAlign: "left",
-              font: "normal normal bold IBM Plex Arabic",
-              letterSpacing: "0px",
-              color: "#000000",
-              fontSize: "21.75px !important",
-              opacity: 1,
-            }}
+            // style={{
+            //   textAlign: "left",
+            //   font: "normal normal bold IBM Plex Arabic",
+            //   letterSpacing: "0px",
+            //   color: "#000000",
+            //   fontSize: "21.75px !important",
+            // }}
+            className="text-[21.75px] font-bold"
           >
             2 كبار، 2 أطفال
           </div>
           <span
-            style={{
-              textAlign: "left",
-              font: "normal normal medium 10px/51px IBM Plex Arabic !important",
-              color: "#000000",
-              opacity: 1,
-              fontSize: "9.75px",
-            }}
+            // style={{
+            //   textAlign: "left",
+            //   font: "normal normal medium 10px/51px IBM Plex Arabic !important",
+            //   color: "#000000",
+            //   opacity: 1,
+            //   fontSize: "9.75px",
+            // }}
+            className="text-[9.75px] font-medium"
           >
             2 غرفة
           </span>

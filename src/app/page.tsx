@@ -25,9 +25,7 @@ export default function Home() {
         <p className="text-gray-700 dark:text-gray-300 mb-2">
           https://wo********.com/************/random
         </p>
-        <p className="text-gray-600 dark:text-gray-400 text-sm">
-          still not working (last test: 9:36 Am)
-        </p>
+        <p className="text-gray-600 dark:text-gray-400 text-sm">working Now</p>
       </div>
     </div>
   );
