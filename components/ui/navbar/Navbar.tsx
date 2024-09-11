@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
       style={{
         marginTop: "41px",
       }}
-      className="  bg-[#FFFFFF]"
+      className="  bg-[#fafafa]"
     >
       <div className="container">
         <div className="flex items-center justify-between container  ">

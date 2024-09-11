@@ -12,13 +12,11 @@ export default function MainHeroContainer() {
         // width: "1124px",
         minHeight: "232px",
       }}
-      className="grid sm:pb-[60px] relative md:grid-cols-1 lg:grid-cols-3 gap-[15px] rounded-[25px] p-[40px]"
+      className="grid sm:pb-[60px]  relative md:grid-cols-1 lg:grid-cols-3 gap-[15px] rounded-[25px] p-[40px]"
     >
-      {/* <div className="grid grid-cols-3 gap-[15px]"> */}
       <MainDestination />
       <DateInfo />
       <GuestInfo />
-      {/* </div> */}
       <div className="absolute bottom-[-55px] left-[50%] transform -translate-x-1/2">
         <SearchIcon />
       </div>

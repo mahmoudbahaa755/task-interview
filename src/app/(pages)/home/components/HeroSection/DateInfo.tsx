@@ -1,24 +1,21 @@
 import { BsCalendarDateFill } from "react-icons/bs";
-import BoxContainer from "../container/BoxContainer";
 
 export default function DateInfo() {
   return (
-    <BoxContainer>
-      <div className="flex  items-start justify-between h-full">
-        <DateDetails
-          title="تاريخ الدخول"
-          date="22 ديسيمبر"
-          previousLink="السابق"
-          nextLink="التالي"
-        />
-        <DateDetails
-          title="تاريخ الخروج"
-          date="22 ديسيمبر"
-          previousLink="السابق"
-          nextLink="التالي"
-        />
-      </div>
-    </BoxContainer>
+    <div className="flex  h-[123px] !pt-[44px] !pb-[65px] !px-[37px] md:!w-full text-start bg-white rounded-[15px] border-[3px] border-[#F0F0F0] items-start justify-between ">
+      <DateDetails
+        title="تاريخ الدخول"
+        date="22 ديسيمبر"
+        previousLink="السابق"
+        nextLink="التالي"
+      />
+      <DateDetails
+        title="تاريخ الخروج"
+        date="22 ديسيمبر"
+        previousLink="السابق"
+        nextLink="التالي"
+      />
+    </div>
   );
 }
 
