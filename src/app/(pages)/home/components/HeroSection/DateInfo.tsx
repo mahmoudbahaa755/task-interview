@@ -35,8 +35,8 @@ function DateDetails({
       <div className="text-[9.75px] text-[#000000] font-medium mb-[4px]">
         {title}
       </div>
-      <button className="  gap-[10.11px] rounded-full flex items-center justify-between w-full">
-        <div className="text-right font-bold text-[16px] md:text-[20.75px]  text-black">
+      <button className="gap-[10.11px] rounded-full flex items-center justify-between w-full">
+        <div className="text-right font-bold text-[14px] md:text-[20.75px]  text-black">
           {date}
         </div>
         <BsCalendarDateFill className="w-[10.07px] h-[12.41px]" />
