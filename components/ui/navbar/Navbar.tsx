@@ -1,23 +1,22 @@
-import Image from "next/image";
 import React from "react";
 import { FaRegBuilding } from "react-icons/fa";
 import { ImUser } from "react-icons/im";
-import logo from "../../../public/logo.png";
 import LanguageChanger from "./LanguageChanger";
+import Logo from "./Logo";
 
 const Navbar: React.FC = () => {
   return (
     <div
       style={{
-        paddingTop: "41.39px",
-        paddingBottom: "28.39px",
+        paddingTop: "35px",
+        paddingBottom: "28.39px !important",
         background: "#FFFFFF",
+        height: "102px !important",
       }}
     >
       <div className="container">
         <div className="flex items-center justify-between container">
-          <Image width={164.9} height={32.22} src={logo} alt="logo" />
-
+          <Logo />
           <div className="flex items-center gap-2">
             <button
               style={{
@@ -43,7 +42,7 @@ const Navbar: React.FC = () => {
                 اضف عقارك
               </span>
             </button>
-            <div className=" gap-[2px] rounded-full flex items-center  justify-center">
+            <div className="gap-[2px] rounded-full flex items-center justify-center">
               <div
                 style={{
                   height: "22px",

@@ -16,18 +16,18 @@ export default function LanguageChanger() {
   };
 
   return (
-    <div className="">
+    <div>
       <button
-        className="!text-[#EF3F24]  flex items-center justify-center "
+        className="flex items-center justify-center "
         onClick={toggleDropdown}
       >
-        <MdArrowDropDown fill="#EF3F24" className="h-[4.63px]" size={18} />
+        <MdArrowDropDown fill="#EF3F24" size={18} />
         <span className="text-[9.75px] font-bold text-[#EF3F24]">
           {language === "en" ? "EN" : "AR"}
         </span>
       </button>
       {false && (
-        <div className="absolute  top-full mt-2 w-[102px] bg-white shadow-md rounded-md border border-gray-200">
+        <div className="absolute  top-full w-[102px] bg-white shadow-md rounded-md border border-gray-200">
           <ul className="divide-y p-2 rounded-md divide-gray-100">
             <li
               className={` cursor-pointer hover:bg-gray-50 flex items-center justify-center ${
