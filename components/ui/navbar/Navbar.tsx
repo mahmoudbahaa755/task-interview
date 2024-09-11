@@ -9,12 +9,13 @@ const Navbar: React.FC = () => {
   return (
     <div
       style={{
-        marginTop: "41px",
+        paddingTop: "41.39px",
+        paddingBottom: "28.39px",
         background: "#FFFFFF",
       }}
     >
       <div className="container">
-        <div className="flex items-center justify-between container  ">
+        <div className="flex items-center justify-between container">
           <Image width={164.9} height={32.22} src={logo} alt="logo" />
 
           <div className="flex items-center gap-2">
