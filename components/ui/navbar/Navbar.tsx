@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { FaRegBuilding } from "react-icons/fa";
-import { TiUser } from "react-icons/ti";
+import { ImUser } from "react-icons/im";
 import logo from "../../../public/logo.png";
 import LanguageChanger from "./LanguageChanger";
 
@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
               gap: "6px",
             }}
           >
-            <FaRegBuilding fill="white" />
+            <FaRegBuilding size={12.76} fill="white" />
             <span
               style={{
                 fontSize: "11px",
@@ -35,15 +35,11 @@ const Navbar: React.FC = () => {
               اضف عقارك
             </span>
           </button>
-          <div className=" gap-[2px] rounded-full flex items-center w-[102px] h-[31px] justify-center">
-            <TiUser className="fill-gray-600 ring-[#EF3F24] ring-2 rounded-full" />{" "}
-            <span
-              className="text-[9.75px]  text-[#EF3F24]"
-              style={{
-                color: "#EF3F24",
-                font: "normal normal 700 10px/51px Avenir Arabic",
-              }}
-            >
+          <div className=" gap-[2px] rounded-full flex items-center  justify-center">
+            <div className=" rounded-full p-1 ring-2 ring-[#EF3F24]">
+              <ImUser fill="#808080" size={15} />
+            </div>
+            <span className="text-[9.75px] font-bold !text-[#EF3F24]">
               يزيد العمري
             </span>
           </div>

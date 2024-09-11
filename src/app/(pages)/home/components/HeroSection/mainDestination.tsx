@@ -7,7 +7,7 @@ export default function MainDestination() {
   console.log(loading);
   return (
     <BoxContainer>
-      <div className="flex flex-col items-start gap-1 justify-center h-full">
+      <div className="flex flex-col  items-start gap-1 justify-center h-full">
         <div
           // style={{
           //   textAlign: "start",
@@ -16,7 +16,7 @@ export default function MainDestination() {
           //   color: "#000000",
           //   fontSize: "9.75px",
           // }}
-          className="text-start font-medium text-[9.75px] text-[#000000]"
+          className="text-start font-medium text-[9.75px]  "
         >
           ابحث عن وجهة
         </div>
@@ -29,7 +29,7 @@ export default function MainDestination() {
           //   color: "#000000",
           //   opacity: 1,
           // }}
-          className="text-start font-bold text-[21.75px] text-[#000000]"
+          className="text-start font-bold text-[21.75px]  "
         >
           هايسيندا باي
         </div>
@@ -42,7 +42,7 @@ export default function MainDestination() {
           //   opacity: 1,
           //   fontSize: "9.75px",
           // }}
-          className="text-right font-medium text-[9.75px] text-[#000000]"
+          className="text-right font-medium text-[10px]  "
         >
           سيدي عبدالرحمن، مرسى مطروح، مصر
         </div>
