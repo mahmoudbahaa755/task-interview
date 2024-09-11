@@ -2,7 +2,6 @@
 import Image from "next/image";
 import { useState } from "react";
 import { FaHeart, FaRegHeart } from "react-icons/fa";
-import defaultImg from "../../../../../../public/loc.webp";
 export default function Card({
   img,
   title,
@@ -12,7 +11,7 @@ export default function Card({
   like,
 }: {
   like: boolean;
-  img?: string;
+  img: string;
   title: string;
   rate: number;
   price: number;
@@ -24,7 +23,7 @@ export default function Card({
       <div className="relative ">
         <div className="!w-[269px] relative rounded-xl !h-[204px]">
           <Image
-            src={img || defaultImg}
+            src={img}
             alt={title}
             layout="fill"
             objectFit="cover"

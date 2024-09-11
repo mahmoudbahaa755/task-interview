@@ -1,42 +1,27 @@
 import { getCard } from "../../../../../../apis/card.api";
+import { CardType } from "../../_types/Card.types";
 import Card from "./Card";
 import FilterHeader from "./FilterHeader";
 
 export default async function FilterSection() {
-  const data = await getCard();
-  console.log("data", data);
+  const { data: cardData } = await getCard();
   return (
     <div className="w-[1124px] mb-[40px]">
       <FilterHeader />
       <div className="grid grid-cols-4 gap-[16px]">
-        <Card
-          like={true}
-          title="شاليهات هايسيندا"
-          rate={4.2}
-          price={100}
-          location="مرسى مطروح، مصر"
-        />
-        <Card
-          like={false}
-          title="شاليهات هايسيندا"
-          rate={3.5}
-          price={100}
-          location="شاليهات هايسيندا"
-        />
-        <Card
-          like={true}
-          title="شاليهات هايسيندا"
-          rate={1.5}
-          price={100}
-          location="شاليهات هايسيندا"
-        />
-        <Card
-          like={false}
-          title="شاليهات هايسيندا"
-          rate={5.5}
-          price={100}
-          location="شاليهات هايسيندا"
-        />
+        {cardData?.map((card: CardType, index: number) => {
+          return (
+            <Card
+              key={index}
+              like={Boolean(card.averageRating)}
+              title={card.nameAr}
+              rate={card.averageRating}
+              price={card.price}
+              img={card.mainImage || card.logo || card.PropertyType.image}
+              location={card.address}
+            />
+          );
+        })}
       </div>
     </div>
   );
