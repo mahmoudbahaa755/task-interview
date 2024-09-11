@@ -34,12 +34,12 @@ function DateDetails({
   nextLink: string;
 }) {
   return (
-    <div className="flex mt-[26px] flex-col items-start justify-center h-full">
+    <div className="flex  flex-col items-start justify-center h-full">
       <div className="text-[9.75px] text-[#000000] font-medium mb-[4px]">
         {title}
       </div>
       <button className="  gap-[13.11px] rounded-full flex items-center justify-between w-full">
-        <div className="text-left font-bold text-[21.75px]  text-black">
+        <div className="text-left font-bold text-[20.75px]  text-black">
           {date}
         </div>
         <BsCalendarDateFill className="w-[11.07px] h-[13.41px]" />
