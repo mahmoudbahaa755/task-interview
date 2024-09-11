@@ -19,7 +19,7 @@ export default function Card({
 }) {
   const [isLiked, setIsLiked] = useState(like);
   return (
-    <div className="bg-white rounded-xl  overflow-hidden max-w-sm">
+    <div className="  rounded-xl  overflow-hidden max-w-sm">
       <div className="relative ">
         <div className="!w-[269px] relative rounded-xl !h-[204px]">
           <Image
@@ -31,7 +31,7 @@ export default function Card({
         </div>
         <button
           onClick={() => setIsLiked(!isLiked)}
-          className="absolute bg-white rounded-full  flex justify-center items-center top-[17px] left-[23px] w-[27px] h-[25px] text-white z-10"
+          className="absolute bg-white rounded-full  flex justify-center items-center top-[14px] left-[21.5px] w-[27px] h-[25px] text-white z-10"
         >
           {!isLiked ? (
             <FaHeart className="  fill-[#EF3F24]  w-[15px] h-[16px]" />
@@ -52,24 +52,8 @@ export default function Card({
         </div>
 
         <div className="flex gap-[6px] justify-start items-baseline">
-          <span
-            style={{
-              textAlign: "right",
-              font: "normal normal bold 14px/51px IBM Plex Arabic",
-              color: "#000000",
-              opacity: 1,
-            }}
-          >
-            {price.toFixed(2)} ريال
-          </span>
-          <span
-            style={{
-              textAlign: "right",
-              font: "normal normal bold 10px/51px IBM Plex Arabic",
-              color: "#7E7E7E",
-              fontSize: "9.75px",
-            }}
-          >
+          <span className="font-bold text-[14px]">{price.toFixed(2)} ريال</span>
+          <span className="text-[9.75px] font-bold text-[#7E7E7E]">
             في الليلة
           </span>
         </div>

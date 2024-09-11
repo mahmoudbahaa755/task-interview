@@ -19,15 +19,7 @@ export default function MainHeroContainer() {
       <DateInfo />
       <GuestInfo />
       {/* </div> */}
-      <div
-        // style={{
-        //   position: "absolute",
-        //   bottom: "-55px",
-        //   left: "50%",
-        //   transform: "translateX(-50%)",
-        // }}
-        className="absolute bottom-[-55px] left-[50%] transform -translate-x-1/2"
-      >
+      <div className="absolute bottom-[-55px] left-[50%] transform -translate-x-1/2">
         <SearchIcon />
       </div>
     </div>
