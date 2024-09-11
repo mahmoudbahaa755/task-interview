@@ -14,7 +14,7 @@ const Navbar: React.FC = () => {
       className="  bg-[#FFFFFF]"
     >
       <div className="container">
-        <div className="flex items-center justify-between   ">
+        <div className="flex items-center justify-between container  ">
           <Image width={164.9} height={32.22} src={logo} alt="logo" />
 
           <div className="flex items-center gap-2">
