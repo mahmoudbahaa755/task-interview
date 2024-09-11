@@ -21,7 +21,7 @@ export default function Card({
   return (
     <div className="  rounded-xl  overflow-hidden max-w-sm">
       <div className="relative ">
-        <div className="!w-[269px] relative rounded-xl !h-[204px]">
+        <div className=" relative rounded-xl !h-[204px]">
           <Image
             src={img}
             alt={title}
@@ -31,7 +31,7 @@ export default function Card({
         </div>
         <button
           onClick={() => setIsLiked(!isLiked)}
-          className="absolute bg-white rounded-full  flex justify-center items-center top-[14px] left-[21.5px] w-[27px] h-[25px] text-white z-10"
+          className="absolute bg-white rounded-full  flex justify-center items-center  top-[14px] left-[21.5px] w-[27px] h-[25px] text-white z-10"
         >
           {!isLiked ? (
             <FaHeart className="  fill-[#EF3F24]  w-[15px] h-[16px]" />
