@@ -31,12 +31,12 @@ export default function Card({
         </div>
         <button
           onClick={() => setIsLiked(!isLiked)}
-          className="absolute bg-white rounded-full  flex justify-center items-center top-[18px] left-[23px] w-[27px] h-[25px] text-white z-10"
+          className="absolute bg-white rounded-full  flex justify-center items-center top-[17px] left-[23px] w-[27px] h-[25px] text-white z-10"
         >
           {!isLiked ? (
-            <FaHeart className="  fill-[#EF3F24]  w-[14px] h-[14px]" />
+            <FaHeart className="  fill-[#EF3F24]  w-[15px] h-[16px]" />
           ) : (
-            <FaRegHeart className="  fill-[#EF3F24] w-[14px] h-[14px]" />
+            <FaRegHeart className="  fill-[#EF3F24] w-[15px] h-[16px]" />
           )}
         </button>
       </div>
